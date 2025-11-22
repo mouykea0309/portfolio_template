@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
+
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "@solidjs/router": "^0.15.4",
