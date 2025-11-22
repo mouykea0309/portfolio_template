@@ -1,0 +1,95 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.solid:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.card {
+  flex: 1;
+  display: flex;
+  text-align: start;
+  justify-content: left;
+  min-height: 300px;
+  background-color: #61dafbaa;
+  padding: 5px;
+}
+.cd-content {
+  background-color: white;
+  margin: 25px;
+  padding: 15px;
+}
+.p-left {
+  margin-left: 25px;
+  text-align: start;
+}
+.p-right {
+  margin-right: 25px;
+  text-align: end;
+}
+.img {
+  width: 246px;
+  height: 180px;
+  border-radius: 10%;
+  background-color: red;
+  object-fit: cover;
+}
+.img-full {
+  width: 100%;
+  height: 400px;
+  border-radius: 1%;
+  background-color: red;
+  object-fit: cover;
+}
+.footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #f3f3f3;
+  color: #333;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.category-text {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.read-the-docs {
+  color: #888;
+}
